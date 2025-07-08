@@ -1,12 +1,27 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Responsive Image</title>
+  <title>eventso - a new way to celebrate</title>
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+      background-color: #f9f9f9; /* optional */
+    }
+
     .responsive-img {
-      max-width: 100%;
+      max-width: 90%;
       height: auto;
       display: block;
     }
@@ -14,13 +29,7 @@
 </head>
 <body>
 
-  <h2>Responsive Image Example</h2>
   <img src="hostimage.png" alt="eventso image" class="responsive-img">
 
 </body>
 </html>
-
-
-
-
- 
